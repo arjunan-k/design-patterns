@@ -35,6 +35,9 @@ export default function Home() {
         establishing a single entity that can control access to multiple types
         of objects.
       </p>
+      <h5>
+        <Link href={"./observer"}>a. Observer / Pub Sub</Link>
+      </h5>
       <div className="line-separator"></div>
       <h3>4. Concurrency</h3>
       <p>
@@ -52,10 +55,12 @@ export default function Home() {
         design your system and ensure high availability, mitigate risks, and
         avoid performance bottlenecks.
       </p>
-      <ol>
-        <li>MVC - Model View & Controller</li>
-        <li>MVVM - Model View View Model</li>
-      </ol>
+      <h5>
+        <Link href={"#"}>a. MVC - Model View & Controller</Link>
+      </h5>
+      <h5>
+        <Link href={"#"}>b. MVVM - Model View View Model</Link>
+      </h5>
     </main>
   );
 }
