@@ -42,7 +42,12 @@ console.log(counter1 === counter2); // true
 const Page = () => {
   return (
     <main>
-      <h1>Singleton</h1>
+      <h1>Singleton - Creational</h1>
+      <p>
+        Creational design patterns are those that help solve problems around
+        creating and managing new object instances in JavaScript. It can be as
+        simple as limiting a class to having just one object.
+      </p>
       <p>
         The Singleton pattern is one of the most commonly used design patterns
         across the software development industry. The problem that it aims to

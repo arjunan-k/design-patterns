@@ -108,7 +108,14 @@ events.publish("sub-async", "Async Kevin");
 const Page = () => {
   return (
     <main>
-      <h1>Observer / Pub Sub</h1>
+      <h1>Observer / Pub Sub - Behavioral</h1>
+      <p>
+        Behavioral design patterns are those that help solve problems around how
+        control (and responsibility) is passed between various objects. These
+        problems could involve controlling access to a linked list or
+        establishing a single entity that can control access to multiple types
+        of objects.
+      </p>
       <p>
         Observer design pattern in JavaScript, Also known as Pub/Sub pattern
         short for publication/subscription. If you are subscribed to the
