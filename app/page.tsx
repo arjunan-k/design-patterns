@@ -22,27 +22,28 @@ export default function Home() {
       <h5>
         <Link href={"./circuit-breaker"}>d. Circuit Breaker</Link>
       </h5>
+      <h2>SOLID Principles</h2>
       <h5>
         <Link href={"./single-responsibility"}>
-          b. Single Responsibility Principle
+          a. Single Responsibility Principle
         </Link>
       </h5>
       <h5>
-        <Link href={"./open-closed"}>c. Open Closed Principle</Link>
+        <Link href={"./open-closed"}>b. Open Closed Principle</Link>
       </h5>
       <h5>
         <Link href={"./liskov-substitution"}>
-          d. Liskov Substitution Principle
+          c. Liskov Substitution Principle
         </Link>
       </h5>
       <h5>
         <Link href={"./interface-segregation"}>
-          e. Interface Segregation Principle
+          d. Interface Segregation Principle
         </Link>
       </h5>
       <h5>
         <Link href={"./dependency-inversion"}>
-          f. Dependency Inversion Principle
+          e. Dependency Inversion Principle
         </Link>
       </h5>
     </main>
