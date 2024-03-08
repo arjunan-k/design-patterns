@@ -63,10 +63,7 @@ console.log(proxiedObj);
 const Page = () => {
   return (
     <main>
-      <h1>Proxy - Structural</h1>
-      Structural design patterns are those that help solve problems around
-      managing the structure (or schema) of JavaScript objects. These problems
-      could include creating a relationship between two unlike objects.
+      <h1>Proxy</h1>
       <p>
         Proxy is the concept of doing things via an intermediatory, for example,
         if you want to change something in the original source, you hand your

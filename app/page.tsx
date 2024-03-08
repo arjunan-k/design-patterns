@@ -22,6 +22,15 @@ export default function Home() {
       <h5>
         <Link href={"./circuit-breaker"}>d. Circuit Breaker</Link>
       </h5>
+      <h5>
+        <Link href={"./builder"}>e. Builder</Link>
+      </h5>
+      <h5>
+        <Link href={"./prototype"}>f. Prototype</Link>
+      </h5>
+      <h5>
+        <Link href={"./iterator"}>g. Iterator</Link>
+      </h5>
       <h2>SOLID Principles</h2>
       <h5>
         <Link href={"./single-responsibility"}>
