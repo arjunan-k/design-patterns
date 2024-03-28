@@ -31,6 +31,9 @@ export default function Home() {
       <h5>
         <Link href={"./iterator"}>g. Iterator</Link>
       </h5>
+      <h5>
+        <Link href={"./object-pool"}>h. Object Pool / Resource Pool</Link>
+      </h5>
       <h2>SOLID Principles</h2>
       <h5>
         <Link href={"./single-responsibility"}>
